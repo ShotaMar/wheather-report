@@ -4,7 +4,7 @@ import Result from './components/Result';
 import Title from './components/Title';
 import './App.css';
 
-const APIKEY = process.env.React_APP_WEATHERAPI_API_KEY
+const APIKEY = process.env.REACT_APP_WEATHERAPI_API_KEY
 type ResultStateType = {
   country: string
   cityName: string
